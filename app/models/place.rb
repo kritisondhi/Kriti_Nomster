@@ -1,2 +1,3 @@
 class Place < ApplicationRecord
-end
+  belongs_to :user
+end 
