@@ -1,6 +1,8 @@
 
 
 @import "bootstrap";
+@import "font-awesome";
+
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -33,4 +35,11 @@ body {
     color: #E3E85A;
     font-family: 'chunkfiveregular', sans-serif;
     font-size:26px;
+}
+
+.invalid-feedback {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
 }
